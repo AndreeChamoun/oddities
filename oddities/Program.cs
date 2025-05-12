@@ -11,7 +11,7 @@ class Program
             int x = int.Parse(Console.ReadLine()); // Läser in ett heltal
             if (x % 2 == 0) // Kollar om talet är jämnt
                 Console.WriteLine(x + " is even"); // Skriver ut att talet är jämnt
-            else
+            else 
                 Console.WriteLine(x + " is odd"); // Annars skrivs det ut att talet är udda
         }
     }
